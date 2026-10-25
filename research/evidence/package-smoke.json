@@ -1,0 +1,29 @@
+{
+  "Completed": true,
+  "At": "2026-10-25T21:36:36.0275539+08:00",
+  "Runtime": "Vulkan",
+  "ModelSha256": "1be3a9b2063867b937e64e2ec7483364a79917e157fa98c5d94b5c1fffea987b",
+  "ColdModelLoadMs": 1739.1741,
+  "WarmupMs": 458.5527,
+  "SilenceRejected": true,
+  "Results": [
+    {
+      "Id": "zh01",
+      "Language": "zh",
+      "Reference": "\u4ECA\u5929\u4E0B\u5348\u4E09\u70B9\u5F00\u4F1A\uFF0C\u8BF7\u63D0\u524D\u51C6\u5907\u597D\u6750\u6599\u3002",
+      "Hypothesis": "\u4ECA\u5929\u4E0B\u5348\u4E09\u70B9\u5F00\u4F1A,\u8BF7\u63D0\u524D\u51C6\u5907\u597D\u6750\u6599\u3002",
+      "CharacterErrors": 0,
+      "ReferenceCharacters": 16,
+      "CER": 0,
+      "WordErrors": 0,
+      "ReferenceWords": 2,
+      "Milliseconds": 469.481,
+      "InputSeconds": 5.02,
+      "VoicedSeconds": 4.22,
+      "UnderOneSecond": true,
+      "WavSha256": "ee903ada115edee009f3b7a32b7157684febcfce3cd450c2aedc0844515fe40d",
+      "Original": "\u672A\u6D4B\uFF1A\u767B\u5F55\u8FB9\u754C",
+      "Note": "\u9884\u70ED\u540E\u79BB\u7EBF\u6587\u4EF6\u8BC6\u522B\u8BA1\u65F6\uFF1B\u4E0D\u7B49\u4E8E\u7AEF\u5230\u7AEF\u677E\u952E\u4E0A\u5C4F\u5EF6\u8FDF"
+    }
+  ]
+}

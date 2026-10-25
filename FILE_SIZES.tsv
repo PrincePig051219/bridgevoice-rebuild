@@ -2,10 +2,10 @@ path	bytes
 .gitattributes	53
 .gitignore	117
 DECISIONS.md	2005
-FILE_SIZES.tsv	4560
+FILE_SIZES.tsv	4655
 PREPUSH_SCAN.json	203
 README.md	3781
-TASKLOG.md	1974
+TASKLOG.md	2266
 licenses/OpenAI-Whisper-LICENSE	1063
 licenses/Whisper.net-LICENSE	1089
 licenses/dotnet-LICENSE.txt	9519
@@ -13,7 +13,7 @@ licenses/dotnet-ThirdPartyNotices.txt	96177
 licenses/whisper.cpp-LICENSE	1078
 research/bridgevoice-spec.md	3751
 research/comparison.md	9131
-research/evidence/SHA256SUMS.txt	5346
+research/evidence/SHA256SUMS.txt	5527
 research/evidence/acceptance-metrics.json	806
 research/evidence/benchmark-final.json	25683
 research/evidence/benchmark-final.json.native.log	40111
@@ -54,6 +54,8 @@ research/evidence/original-bridgevoice/rust.json	8698
 research/evidence/original-bridgevoice/settings-observation.json	1532
 research/evidence/original-bridgevoice/welcome-accessibility.json	2878
 research/evidence/original-bridgevoice/welcome.jpg	30546
+research/evidence/package-smoke.json	1178
+research/evidence/package-smoke.json.native.log	6699
 research/evidence/package.json	341
 research/evidence/pipeline-notepad-final.json	12750
 research/evidence/pipeline-notepad-release.json	12210
