@@ -1,0 +1,8 @@
+{
+  "file": "Suikouda-review-win-x64.zip",
+  "bytes": 545498756,
+  "sha256": "9036df884fb9d5657c3190b98bdbd1ba8b75fd29d814dc142cd0b8656223595c",
+  "contains_official_small_model": true,
+  "target": "Windows x64; Vulkan/CPU; bundled .NET8 runtime",
+  "excludes": "user data/history, original application assets, non-Windows runtimes"
+}

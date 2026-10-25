@@ -1,0 +1,127 @@
+[
+  {
+    "hwnd": 14619274,
+    "class": "RichEditD2DPT",
+    "length": 54,
+    "own_fixture_marker_present": true,
+    "sha256": "b6a18e161b6bce6529d26120a511e606b818927ae6de3194c27e3090fd5ea7d9",
+    "matches": [
+      {
+        "id": "zh01",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh02",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh03",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh04",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh05",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh06",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh07",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh08",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh09",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh10",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh11",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh12",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh13",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh14",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh15",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh16",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh17",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh18",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh19",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "zh20",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "en01",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "en02",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "en03",
+        "present": false,
+        "count": 0
+      }
+    ],
+    "text": "今天下午三点开会,请提前准备好材料。\r\n周末我准备去图书馆借几本书。当前窗口没有响应,需要记录真实状态。\r\n"
+  }
+]

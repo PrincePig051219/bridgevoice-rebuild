@@ -1,0 +1,56 @@
+{
+  "transcription": {
+    "model": "base.en",
+    "language": null,
+    "auto_punctuate": true,
+    "remove_fillers": true,
+    "mode": "local",
+    "cloud_provider": "together-whisper-v3"
+  },
+  "hotkeys": {
+    "activate": "Ctrl+Shift+Space",
+    "cancel": "Escape",
+    "push_to_talk": "Control+Meta",
+    "toggle_recording": null,
+    "macos_ptt_override": "default"
+  },
+  "audio": {
+    "preferred_input_device": null,
+    "fallback_input_device": null,
+    "mute_system_audio_while_recording": false,
+    "recording_sound_enabled": true,
+    "input_gain": 1.0
+  },
+  "ui": {
+    "theme": "system",
+    "show_overlay": true,
+    "overlay_position": "bottom-center",
+    "pill_style": "logo-and-text",
+    "widget_position": {
+      "center_x": 2292,
+      "center_y": 736,
+      "monitor_x": 0,
+      "monitor_y": 0,
+      "monitor_width": 2868,
+      "monitor_height": 1260,
+      "monitor_name": "\\\\.\\DISPLAY14",
+      "scale_factor": 1.25,
+      "saved_at_ms": 1792734141286
+    },
+    "auto_hide_overlay_when_idle": false,
+    "follow_cursor_to_monitor": true,
+    "lock_position": false,
+    "dashboard_close_notice_shown": true,
+    "autostart_initialized": true
+  },
+  "output": {
+    "copy_to_clipboard": false,
+    "auto_enhance_prompt": false
+  },
+  "cloud_field_names": [
+    "sync_enabled",
+    "auto_polish",
+    "subscription_last_premium_at_ms"
+  ],
+  "excluded": "cloud values, dictionary values, instructions values and credentials not collected"
+}

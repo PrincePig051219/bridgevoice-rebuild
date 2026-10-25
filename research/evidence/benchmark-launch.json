@@ -1,0 +1,6 @@
+{
+  "pid": 33184,
+  "started": "2026-10-25T20:37:36.0924136+08:00",
+  "arguments": "--root \"E:\\codex手搓程序\\bridgevoice-rebuild\" --benchmark \"E:\\codex手搓程序\\bridgevoice-rebuild\\tests\\corpus.json\" \"E:\\codex手搓程序\\bridgevoice-rebuild\\research\\evidence\\benchmark.json\"",
+  "note": "Initial run while Ghidra analysis active; contention is a confounder"
+}

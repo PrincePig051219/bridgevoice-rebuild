@@ -1,0 +1,42 @@
+[
+  {
+    "hwnd": 14619274,
+    "class": "RichEditD2DPT",
+    "length": 137,
+    "own_fixture_marker_present": true,
+    "sha256": "3114e4d2eb0e08a8b45f088194af698be9f08a3b53dc0aab7fe4ad55ff08ec91",
+    "matches": [
+      {
+        "id": "zh01",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh02",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh03",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh04",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh05",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh06",
+        "present": true,
+        "count": 1
+      }
+    ],
+    "text": "随口打输入验证 SKD-20261025今天下午三點開會,請提前準備好材料。\r\n請把這份報告保存在桌面的工作文件家裡。\r\n明天北京可能有雨,出門記得帶傘。\r\n這個項目需要先完成研究,再開始開發。\r\n我想訂兩張週五晚上8點的電影票。\r\n会议结束以后,我们一起核对测试结果。\r\n"
+  }
+]

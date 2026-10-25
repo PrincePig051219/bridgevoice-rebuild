@@ -1,0 +1,221 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_7e1a49cdcd9da76af16d87930d33bb7dee490fa78f5105540e4ec9b6201cf7b9\",\"subject\":{\"name\":\"BridgeVoice\",\"digest\":{\"sha256\":\"391cdf2d177b0938ab3a0d1e0524fa2ce61e2e6fe10734b672ecd2fc176891af\"},\"local_path\":\"D:\\\\BridgeVoice\",\"format\":\"directory\",\"architecture\":null},\"provider\":{\"id\":\"rea-artifact-graph\",\"name\":\"REA safe artifact graph provider\",\"version\":\"1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_desktop_application\",\"parameters\":{\"path\":\"D:\\\\BridgeVoice\",\"max_entries\":20000,\"max_probe_bytes\":8388608},\"raw_result\":null,\"normalized_result\":{\"root\":{\"path\":\"D:\\\\BridgeVoice\",\"canonical_path\":\"D:\\\\BridgeVoice\",\"namespace_id\":\"dsr_f9d1cda37c75f384eda64eb58f486daea7c9a8bedbeb83f73270fc5c804f58e9\",\"identity\":{\"device\":\"3122420745\",\"inode\":\"562949954078490\"},\"snapshot_sha256\":\"391cdf2d177b0938ab3a0d1e0524fa2ce61e2e6fe10734b672ecd2fc176891af\",\"identity_scope\":\"examined-metadata-and-read-ranges\"},\"files\":[{\"file_id\":\"dsf_d9cd66cf20554f919fd72e9dcb1c4590769d3097add73bdc844537af48f14455\",\"path\":\"bridgevoice.exe\",\"local_path\":\"D:\\\\BridgeVoice\\\\bridgevoice.exe\",\"kind\":\"file\",\"bytes\":68923904,\"identity\":{\"device\":\"3122420745\",\"inode\":\"562949954078491\",\"size\":\"68923904\",\"mode\":\"33206\",\"mtime_ns\":\"1783534374000000000\",\"ctime_ns\":\"1783863643474976700\"},\"read_status\":\"examined\",\"ranges\":[{\"offset\":0,\"bytes\":64,\"sha256\":\"e42bd07a3249c3ec8b33ab3606a97cb70f7bd9e99a80e939ff4cdc2a17845f28\"},{\"offset\":312,\"bytes\":24,\"sha256\":\"db0996dd40d845f7978602400643d6337d9a30c19ae9ef99f7633db87b1af035\"},{\"offset\":336,\"bytes\":240,\"sha256\":\"be4e251baf257f5c56fe8a80c3769202a31787ea6c8317fe46cdd5c1668a4295\"},{\"offset\":68923892,\"bytes\":12,\"sha256\":\"15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b\"}],\"facts\":[{\"kind\":\"native-image-header\",\"offset\":312,\"value\":{\"format\":\"pe\",\"machine\":34404}}],\"issues\":[]},{\"file_id\":\"dsf_e27994678872f4ea7a6e131d96238dcd8f06aacb9d94377b99d653dfed4d30e1\",\"path\":\"models\",\"local_path\":\"D:\\\\BridgeVoice\\\\models\",\"kind\":\"directory\",\"bytes\":null,\"identity\":null,\"read_status\":\"not-selected\",\"ranges\":[],\"facts\":[],\"issues\":[]},{\"file_id\":\"dsf_ef55a75e6f8907652e44c43280debc0e91736a79f22acb9406980c39d6a321c6\",\"path\":\"models/.gitkeep\",\"local_path\":\"D:\\\\BridgeVoice\\\\models\\\\.gitkeep\",\"kind\":\"file\",\"bytes\":0,\"identity\":{\"device\":\"3122420745\",\"inode\":\"562949954078493\",\"size\":\"0\",\"mode\":\"33206\",\"mtime_ns\":\"1783531800000000000\",\"ctime_ns\":\"1783863643152364500\"},\"read_status\":\"not-selected\",\"ranges\":[],\"facts\":[],\"issues\":[]},{\"file_id\":\"dsf_0ca76d720db82f142c30ec1dc456b1e9ebb692edf543201b8ecde2cc844a3c3b\",\"path\":\"uninstall.exe\",\"local_path\":\"D:\\\\BridgeVoice\\\\uninstall.exe\",\"kind\":\"file\",\"bytes\":112124,\"identity\":{\"device\":\"3122420745\",\"inode\":\"562949954078494\",\"size\":\"112124\",\"mode\":\"33206\",\"mtime_ns\":\"1783863643167005600\",\"ctime_ns\":\"1783863643167005600\"},\"read_status\":\"examined\",\"ranges\":[{\"offset\":0,\"bytes\":64,\"sha256\":\"720facc4408fc9406eb3c06f41676fe828405dc69d1b16dcf492f3aa6fea6287\"},{\"offset\":216,\"bytes\":24,\"sha256\":\"4264029d1a08d5cac8f776fd2ee17b67a9ba1a8aa68cecf8d532e478d444ade0\"},{\"offset\":240,\"bytes\":224,\"sha256\":\"e494f60338b47c7c26c2f19e39f03df1fdfa980e951c7b52cceae61a1128a578\"},{\"offset\":112112,\"bytes\":12,\"sha256\":\"30deed190393326327e374fda7b0d7eebcc75f8be551c00754be0d1ba066d55a\"}],\"facts\":[{\"kind\":\"native-image-header\",\"offset\":216,\"value\":{\"format\":\"pe\",\"machine\":332}}],\"issues\":[]}],\"omissions\":[],\"candidates\":[],\"components\":[],\"next_probes\":[],\"coverage\":{\"status\":\"complete-within-scan\",\"entries_examined\":4,\"files_probed\":2,\"bytes_read\":664,\"symlinks_not_followed\":0,\"special_entries_omitted\":0,\"limits\":{\"max_entries\":20000,\"max_probe_bytes\":8388608}},\"limitations\":[\"Runtime candidates and component markers do not establish loaded code, execution, or build correspondence.\",\"The directory SHA-256 commits only to retained paths, omission kinds, available filesystem metadata and read-range digests, not to every file's contents. Unread bytes are unknown.\",\"Special-entry payloads are not read. Their paths and kinds are retained; other special-entry metadata is unavailable in this report.\",\"Child symlinks are not followed. Executable section-embedded PCKs without a trailer and encrypted contents remain unexamined.\",\"This is a sequence of stable entry observations, not an atomic snapshot of the entire directory.\",\"Unity reference decoding stops after a witness in each Data/Managed directory; other assemblies' references are unexamined. Header facts remain per-file.\"]},\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Runtime candidates and component markers do not establish loaded code, execution, or build correspondence.\",\"The directory SHA-256 commits only to retained paths, omission kinds, available filesystem metadata and read-range digests, not to every file's contents. Unread bytes are unknown.\",\"Special-entry payloads are not read. Their paths and kinds are retained; other special-entry metadata is unavailable in this report.\",\"Child symlinks are not followed. Executable section-embedded PCKs without a trailer and encrypted contents remain unexamined.\",\"This is a sequence of stable entry observations, not an atomic snapshot of the entire directory.\",\"Unity reference decoding stops after a witness in each Data/Managed directory; other assemblies' references are unexamined. Header facts remain per-file.\"],\"relationship_coverage\":null,\"locations\":[{\"kind\":\"artifact-path\",\"path\":\"D:\\\\BridgeVoice\"}],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_7e1a49cdcd9da76af16d87930d33bb7dee490fa78f5105540e4ec9b6201cf7b9",
+    "subject": {
+      "name": "BridgeVoice",
+      "digest": {
+        "sha256": "391cdf2d177b0938ab3a0d1e0524fa2ce61e2e6fe10734b672ecd2fc176891af"
+      },
+      "local_path": "D:\\BridgeVoice",
+      "format": "directory",
+      "architecture": null
+    },
+    "provider": {
+      "id": "rea-artifact-graph",
+      "name": "REA safe artifact graph provider",
+      "version": "1"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_desktop_application",
+    "parameters": {
+      "path": "D:\\BridgeVoice",
+      "max_entries": 20000,
+      "max_probe_bytes": 8388608
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "root": {
+        "path": "D:\\BridgeVoice",
+        "canonical_path": "D:\\BridgeVoice",
+        "namespace_id": "dsr_f9d1cda37c75f384eda64eb58f486daea7c9a8bedbeb83f73270fc5c804f58e9",
+        "identity": {
+          "device": "3122420745",
+          "inode": "562949954078490"
+        },
+        "snapshot_sha256": "391cdf2d177b0938ab3a0d1e0524fa2ce61e2e6fe10734b672ecd2fc176891af",
+        "identity_scope": "examined-metadata-and-read-ranges"
+      },
+      "files": [
+        {
+          "file_id": "dsf_d9cd66cf20554f919fd72e9dcb1c4590769d3097add73bdc844537af48f14455",
+          "path": "bridgevoice.exe",
+          "local_path": "D:\\BridgeVoice\\bridgevoice.exe",
+          "kind": "file",
+          "bytes": 68923904,
+          "identity": {
+            "device": "3122420745",
+            "inode": "562949954078491",
+            "size": "68923904",
+            "mode": "33206",
+            "mtime_ns": "1783534374000000000",
+            "ctime_ns": "1783863643474976700"
+          },
+          "read_status": "examined",
+          "ranges": [
+            {
+              "offset": 0,
+              "bytes": 64,
+              "sha256": "e42bd07a3249c3ec8b33ab3606a97cb70f7bd9e99a80e939ff4cdc2a17845f28"
+            },
+            {
+              "offset": 312,
+              "bytes": 24,
+              "sha256": "db0996dd40d845f7978602400643d6337d9a30c19ae9ef99f7633db87b1af035"
+            },
+            {
+              "offset": 336,
+              "bytes": 240,
+              "sha256": "be4e251baf257f5c56fe8a80c3769202a31787ea6c8317fe46cdd5c1668a4295"
+            },
+            {
+              "offset": 68923892,
+              "bytes": 12,
+              "sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b"
+            }
+          ],
+          "facts": [
+            {
+              "kind": "native-image-header",
+              "offset": 312,
+              "value": {
+                "format": "pe",
+                "machine": 34404
+              }
+            }
+          ],
+          "issues": []
+        },
+        {
+          "file_id": "dsf_e27994678872f4ea7a6e131d96238dcd8f06aacb9d94377b99d653dfed4d30e1",
+          "path": "models",
+          "local_path": "D:\\BridgeVoice\\models",
+          "kind": "directory",
+          "bytes": null,
+          "identity": null,
+          "read_status": "not-selected",
+          "ranges": [],
+          "facts": [],
+          "issues": []
+        },
+        {
+          "file_id": "dsf_ef55a75e6f8907652e44c43280debc0e91736a79f22acb9406980c39d6a321c6",
+          "path": "models/.gitkeep",
+          "local_path": "D:\\BridgeVoice\\models\\.gitkeep",
+          "kind": "file",
+          "bytes": 0,
+          "identity": {
+            "device": "3122420745",
+            "inode": "562949954078493",
+            "size": "0",
+            "mode": "33206",
+            "mtime_ns": "1783531800000000000",
+            "ctime_ns": "1783863643152364500"
+          },
+          "read_status": "not-selected",
+          "ranges": [],
+          "facts": [],
+          "issues": []
+        },
+        {
+          "file_id": "dsf_0ca76d720db82f142c30ec1dc456b1e9ebb692edf543201b8ecde2cc844a3c3b",
+          "path": "uninstall.exe",
+          "local_path": "D:\\BridgeVoice\\uninstall.exe",
+          "kind": "file",
+          "bytes": 112124,
+          "identity": {
+            "device": "3122420745",
+            "inode": "562949954078494",
+            "size": "112124",
+            "mode": "33206",
+            "mtime_ns": "1783863643167005600",
+            "ctime_ns": "1783863643167005600"
+          },
+          "read_status": "examined",
+          "ranges": [
+            {
+              "offset": 0,
+              "bytes": 64,
+              "sha256": "720facc4408fc9406eb3c06f41676fe828405dc69d1b16dcf492f3aa6fea6287"
+            },
+            {
+              "offset": 216,
+              "bytes": 24,
+              "sha256": "4264029d1a08d5cac8f776fd2ee17b67a9ba1a8aa68cecf8d532e478d444ade0"
+            },
+            {
+              "offset": 240,
+              "bytes": 224,
+              "sha256": "e494f60338b47c7c26c2f19e39f03df1fdfa980e951c7b52cceae61a1128a578"
+            },
+            {
+              "offset": 112112,
+              "bytes": 12,
+              "sha256": "30deed190393326327e374fda7b0d7eebcc75f8be551c00754be0d1ba066d55a"
+            }
+          ],
+          "facts": [
+            {
+              "kind": "native-image-header",
+              "offset": 216,
+              "value": {
+                "format": "pe",
+                "machine": 332
+              }
+            }
+          ],
+          "issues": []
+        }
+      ],
+      "omissions": [],
+      "candidates": [],
+      "components": [],
+      "next_probes": [],
+      "coverage": {
+        "status": "complete-within-scan",
+        "entries_examined": 4,
+        "files_probed": 2,
+        "bytes_read": 664,
+        "symlinks_not_followed": 0,
+        "special_entries_omitted": 0,
+        "limits": {
+          "max_entries": 20000,
+          "max_probe_bytes": 8388608
+        }
+      },
+      "limitations": [
+        "Runtime candidates and component markers do not establish loaded code, execution, or build correspondence.",
+        "The directory SHA-256 commits only to retained paths, omission kinds, available filesystem metadata and read-range digests, not to every file's contents. Unread bytes are unknown.",
+        "Special-entry payloads are not read. Their paths and kinds are retained; other special-entry metadata is unavailable in this report.",
+        "Child symlinks are not followed. Executable section-embedded PCKs without a trailer and encrypted contents remain unexamined.",
+        "This is a sequence of stable entry observations, not an atomic snapshot of the entire directory.",
+        "Unity reference decoding stops after a witness in each Data/Managed directory; other assemblies' references are unexamined. Header facts remain per-file."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Runtime candidates and component markers do not establish loaded code, execution, or build correspondence.",
+      "The directory SHA-256 commits only to retained paths, omission kinds, available filesystem metadata and read-range digests, not to every file's contents. Unread bytes are unknown.",
+      "Special-entry payloads are not read. Their paths and kinds are retained; other special-entry metadata is unavailable in this report.",
+      "Child symlinks are not followed. Executable section-embedded PCKs without a trailer and encrypted contents remain unexamined.",
+      "This is a sequence of stable entry observations, not an atomic snapshot of the entire directory.",
+      "Unity reference decoding stops after a witness in each Data/Managed directory; other assemblies' references are unexamined. Header facts remain per-file."
+    ],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "D:\\BridgeVoice"
+      }
+    ],
+    "evidence_links": []
+  }
+}

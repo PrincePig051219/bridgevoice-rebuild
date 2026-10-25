@@ -1,0 +1,13 @@
+{
+  "time": "2026-10-25T12:27:05.434Z",
+  "window": {
+    "app": "process:D:\\BridgeVoice\\bridgevoice.exe",
+    "id": 68556,
+    "title": "BridgeVoice"
+  },
+  "accessibility": {
+    "document_text": "￼\nSpeak. Ship at the speed of thought.\nWelcome to\nBridgeVoice.\nPrivacy-first voice dictation. Hold a key, speak, and your words land wherever your cursor is — on-device, no cloud.\nSign in with Browser\nCreate an account\nBy signing in, you agree to our Terms & Privacy.",
+    "focused_element": "15 文档 BridgeVoice Value: http://tauri.localhost/ ID: RootWebArea",
+    "tree": "Window: \"BridgeVoice\", App: bridgevoice.exe.\n\t0 窗口 BridgeVoice Secondary Actions: Raise\n\t\t1 窗格 TAURI_DRAG_RESIZE_WINDOW\n\t\t2 窗格\n\t\t\t3 窗格 BridgeVoice\n\t\t\t\t4 窗格 (disabled)\n\t\t\t\t5 区域 BridgeVoice - Web 内容\n\t\t\t\t\t6 区域\n\t\t\t\t\t\t7 区域\n\t\t\t\t\t\t\t8 区域\n\t\t\t\t\t\t\t\t9 区域\n\t\t\t\t\t\t\t\t10 区域\n\t\t\t\t\t\t\t\t\t11 区域\n\t\t\t\t\t\t\t\t\t\t12 区域\n\t\t\t\t\t\t\t\t\t\t\t13 区域\n\t\t\t\t\t\t\t\t\t\t\t\t14 区域\n\t\t\t\t\t\t\t\t\t\t\t\t15 文档 BridgeVoice Value: http://tauri.localhost/ ID: RootWebArea\n\t\t\t\t\t\t\t\t\t\t\t\t\t16 组\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t17 组 ID: root\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t18 文本 Speak. Ship at the speed of thought.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t19 标题 Welcome to BridgeVoice.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t20 文本 Privacy-first voice dictation. Hold a key,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t21 文本 \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t22 文本 speak\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t23 文本 , and your words land wherever your cursor is — on-device, no cloud.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t24 按钮 Sign in with Browser\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t25 按钮 Create an account\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t26 文本 By signing in, you agree to our\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t27 文本 \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t28 链接 Terms Value: https://www.bridgemind.ai/terms-of-service\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t29 文本 \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t30 文本 &\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t31 文本 \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t32 链接 Privacy Value: https://www.bridgemind.ai/privacy-policy\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t33 文本 .\n\t\t\t\t\t\t\t\t34 区域\n\t\t\t\t\t\t35 区域\n\t\t\t\t\t\t36 区域\n\t\t37 标题栏 (settable, string) Value: BridgeVoice\n\t\t\t38 菜单栏 系统 ID: MenuBar\n\t\t\t\t39 菜单项目 系统\n\t\t\t40 按钮 最小化\n\t\t\t41 按钮 最大化\n\t\t\t42 按钮 关闭\n\nDocument text: ```\n￼\nSpeak. Ship at the speed of thought.\nWelcome to\nBridgeVoice.\nPrivacy-first voice dictation. Hold a key, speak, and your words land wherever your cursor is — on-device, no cloud.\nSign in with Browser\nCreate an account\nBy signing in, you agree to our Terms & Privacy.\n```"
+  }
+}

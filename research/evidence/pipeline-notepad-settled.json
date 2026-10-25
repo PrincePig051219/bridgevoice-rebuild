@@ -1,0 +1,397 @@
+{
+  "Completed": true,
+  "Target": 135038,
+  "Note": "Preloaded WAV to ASR to actual input; excludes physical microphone/key-release, includes clipboard settle/verification; unverified injection is not success",
+  "Results": [
+    {
+      "Id": "zh01",
+      "Text": "\u4ECA\u5929\u4E0B\u5348\u4E09\u70B9\u5F00\u4F1A,\u8BF7\u63D0\u524D\u51C6\u5907\u597D\u6750\u6599\u3002",
+      "Milliseconds": 434.9514,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1760.9892,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2345.7718
+    },
+    {
+      "Id": "zh02",
+      "Text": "\u8BF7\u628A\u8FD9\u4EFD\u62A5\u544A\u4FDD\u5B58\u5728\u684C\u9762\u7684\u5DE5\u4F5C\u6587\u4EF6\u5BB6\u91CC\u3002",
+      "Milliseconds": 569.1942,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1743.7592,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2406.3503
+    },
+    {
+      "Id": "zh03",
+      "Text": "\u660E\u5929\u5317\u4EAC\u53EF\u80FD\u6709\u96E8,\u51FA\u95E8\u8BB0\u5F97\u5E26\u4F1E\u3002",
+      "Milliseconds": 664.977,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1743.5982,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 3357.9804
+    },
+    {
+      "Id": "zh04",
+      "Text": "\u8FD9\u4E2A\u9879\u76EE\u9700\u8981\u5148\u5B8C\u6210\u7814\u7A76,\u518D\u5F00\u59CB\u5F00\u53D1\u3002",
+      "Milliseconds": 702.501,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1717.0518,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2505.0675
+    },
+    {
+      "Id": "zh05",
+      "Text": "\u6211\u60F3\u8BA2\u4E24\u5F20\u5468\u4E94\u665A\u4E0A8\u70B9\u7684\u7535\u5F71\u7968\u3002",
+      "Milliseconds": 745.2214,
+      "Delivery": {
+        "Status": "not-observed",
+        "Confirmed": false,
+        "Method": "clipboard",
+        "Milliseconds": 2785.9227,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 3620.7953
+    },
+    {
+      "Id": "zh06",
+      "Text": "\u4F1A\u8BAE\u7ED3\u675F\u4EE5\u540E,\u6211\u4EEC\u4E00\u8D77\u6838\u5BF9\u6D4B\u8BD5\u7ED3\u679C\u3002",
+      "Milliseconds": 875.8752,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1758.4322,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2721.6393
+    },
+    {
+      "Id": "zh07",
+      "Text": "\u628A\u80CC\u666F\u989C\u8272\u6539\u6210\u6D45\u84DD\u8272,\u6587\u5B57\u4FDD\u6301\u9ED1\u8272\u3002",
+      "Milliseconds": 621.7684,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1785.7475,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2487.9583
+    },
+    {
+      "Id": "zh08",
+      "Text": "\u5982\u679C\u7F51\u7EDC\u65AD\u5F00,\u7A0B\u5E8F\u4E5F\u5E94\u8BE5\u6B63\u5E38\u8FD0\u884C\u3002",
+      "Milliseconds": 739.0122,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1730.5607,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2554.8965
+    },
+    {
+      "Id": "zh09",
+      "Text": "\u8FD9\u6761\u8BB0\u5F55\u5305\u542B\u4E2D\u6587\u3001\u82F1\u6587\u548C\u6570\u5B57\u3002",
+      "Milliseconds": 561.402,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1775.3744,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2441.7953
+    },
+    {
+      "Id": "zh10",
+      "Text": "\u8BF7\u786E\u8BA4\u6587\u4EF6\u5DF2\u7ECF\u5907\u4EFD,\u7136\u540E\u518D\u4FEE\u6539\u8BBE\u7F6E\u3002",
+      "Milliseconds": 774.1661,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1756.6116,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2625.1454
+    },
+    {
+      "Id": "zh11",
+      "Text": "\u8FD9\u676F\u5496\u5561\u4E0D\u8981\u52A0\u7CD6,\u8C22\u8C22!",
+      "Milliseconds": 712.8123,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1763.0599,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2557.3733
+    },
+    {
+      "Id": "zh12",
+      "Text": "\u5468\u672B\u6211\u51C6\u5907\u53BB\u56FE\u4E66\u9986\u501F\u51E0\u672C\u4E66\u3002",
+      "Milliseconds": 571.6837,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1735.1575,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2386.7571
+    },
+    {
+      "Id": "zh13",
+      "Text": "\u5F53\u524D\u7A97\u53E3\u6CA1\u6709\u54CD\u5E94,\u9700\u8981\u8BB0\u5F55\u771F\u5B9E\u72B6\u6001\u3002",
+      "Milliseconds": 781.4384,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1732.7283,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2591.8311
+    },
+    {
+      "Id": "zh14",
+      "Text": "\u8BF7\u4E0D\u8981\u628A\u63A8\u65AD\u5199\u6210\u5DF2\u7ECF\u9A8C\u8BC1\u7684\u4E8B\u5B9E\u3002",
+      "Milliseconds": 576.4124,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1750.1485,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2408.7765
+    },
+    {
+      "Id": "zh15",
+      "Text": "\u6309\u4F4F\u5FEB\u6377\u952E\u8BF4\u8BDD,\u677E\u5F00\u4EE5\u540E\u663E\u793A\u6587\u5B57\u3002",
+      "Milliseconds": 781.0229,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1727.308,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2599.8502
+    },
+    {
+      "Id": "zh16",
+      "Text": "\u6211\u4EEC\u9700\u8981\u6BD4\u8F83\u51C6\u786E\u7387,\u5EF6\u8FDF\u548C\u8F93\u5165\u6210\u529F\u7387\u3002",
+      "Milliseconds": 776.8219,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1738.088,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2630.2275
+    },
+    {
+      "Id": "zh17",
+      "Text": "\u8FD9\u6BB5\u5F55\u97F3\u524D\u5F8C\u6709\u4E00\u70B9\u9759\u97F3\u3002",
+      "Milliseconds": 586.4234,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1734.0807,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2416.8145
+    },
+    {
+      "Id": "zh18",
+      "Text": "\u65B0\u7684\u7248\u672C\u4FEE\u590D\u4E86\u6587\u4EF6\u5BF9\u8BDD\u77FF\u7684\u95EE\u9898\u3002",
+      "Milliseconds": 775.037,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1729.505,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2665.6661
+    },
+    {
+      "Id": "zh19",
+      "Text": "\u8BF7\u68C0\u67E5\u6240\u6709\u8BC1\u636E\u662F\u5426\u90FD\u6709\u6458\u836F\u3002",
+      "Milliseconds": 735.055,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1737.8653,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2551.8149
+    },
+    {
+      "Id": "zh20",
+      "Text": "\u5B8C\u6210\u4EE5\u5F8C\u505C\u6B62,\u4E0D\u8981\u7EE7\u7EED\u589E\u52A0\u529F\u80FD\u3002\u0801\u3002",
+      "Milliseconds": 605.2895,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1761.1289,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2496.1359
+    },
+    {
+      "Id": "en01",
+      "Text": "Please save the report in the project folder.",
+      "Milliseconds": 588.6516,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1724.2071,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2406.5086
+    },
+    {
+      "Id": "en02",
+      "Text": "The meeting starts at 3 in the afternoon.",
+      "Milliseconds": 584.6083,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1808.0029,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2564.6271
+    },
+    {
+      "Id": "en03",
+      "Text": "This application should work without an internet connection.",
+      "Milliseconds": 570.7511,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1757.9093,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2432.9707
+    },
+    {
+      "Id": "en04",
+      "Text": "Hold the shortcut key and speak clearly.",
+      "Milliseconds": 759.4286,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1783.6781,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2645.3667
+    },
+    {
+      "Id": "en05",
+      "Text": "Check the evidence before writing the conclusion.",
+      "Milliseconds": 723.3967,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1825.3199,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2637.2065
+    },
+    {
+      "Id": "en06",
+      "Text": "I would like a cup of coffee without sugar.",
+      "Milliseconds": 546.7676,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "unicode-clipboard-busy",
+        "Milliseconds": 1279.3396,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 1826.6024
+    },
+    {
+      "Id": "en07",
+      "Text": "The new version includes automatic punctuation.",
+      "Milliseconds": 632.8579,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1727.7675,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2448.8692
+    },
+    {
+      "Id": "en08",
+      "Text": "Keep a backup before changing the settings.",
+      "Milliseconds": 644.1381,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1790.5164,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2538.3183
+    },
+    {
+      "Id": "en09",
+      "Text": "We need to measure accuracy and response time.",
+      "Milliseconds": 685.274,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1802.5489,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2569.4543
+    },
+    {
+      "Id": "en10",
+      "Text": "Stop when all the requested work is complete.",
+      "Milliseconds": 693.2765,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 1724.382,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 2500.496
+    }
+  ]
+}

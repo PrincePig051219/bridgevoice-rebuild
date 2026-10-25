@@ -1,0 +1,104 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_57166d2400c5ea7da25a7b0384b669692f1918a58290cdd5ac1845a08cecdb87\",\"subject\":{\"name\":\"bridgevoice.exe\",\"digest\":{\"sha256\":\"52eb5985fd6838f4bcc4e84924544eb84205cef8c031b5e472804bcc8456aa28\"},\"local_path\":\"D:\\\\BridgeVoice\\\\bridgevoice.exe\",\"format\":\"pe\",\"architecture\":\"x86_64\"},\"provider\":{\"id\":\"rea-analysis-view\",\"name\":\"REA analysis view projection\",\"version\":\"1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis-view\",\"operation\":\"inspect_analysis_view\",\"parameters\":{\"parent_evidence_id\":\"ev_6da9fd5194f6942e9c64a559bc4dee98c86a38c033e03f14d137adfbe6eac4e4\",\"view\":{\"kind\":\"summary\"}},\"raw_result\":null,\"normalized_result\":{\"kind\":\"summary\",\"view\":{\"kind\":\"summary\"},\"parent_evidence_id\":\"ev_6da9fd5194f6942e9c64a559bc4dee98c86a38c033e03f14d137adfbe6eac4e4\",\"parent_operation\":\"inspect_rust_binary\",\"parent_digest\":\"6da9fd5194f6942e9c64a559bc4dee98c86a38c033e03f14d137adfbe6eac4e4\",\"view_digest\":\"0350a203d10c51694d6fc7b54f6a1f7e3b930bf3edf2c383ea2c6daeeb0990fc\",\"artifact\":{\"path\":\"D:\\\\BridgeVoice\\\\bridgevoice.exe\",\"sha256\":\"52eb5985fd6838f4bcc4e84924544eb84205cef8c031b5e472804bcc8456aa28\"},\"coverage\":{\"status\":\"complete-within-view\",\"examined\":1,\"total\":1,\"next_offset\":null,\"exhausted\":true},\"limitations\":[\"Embedded dependency metadata is file content. It does not authenticate package names, versions, sources, or the compiler that produced the binary.\",\"No .dep-v0 section was found. Absence of .dep-v0 does not mean the binary has no dependencies.\",\"Only the .dep-v0 dependency section and read-only compiler path strings are inspected. Functions, types, and runtime behavior are not recovered.\",\"Resource guards bound the selected file to 256 MiB, a dependency section to 1 MiB, inflated JSON to the smaller of 8 MiB and 64 times the section size, and the complete report to 8 MiB. Package and dependency counts are admitted against that output budget before schema cloning, graph objects, or reverse-edge allocation.\",\"The rustc commit hash is inferred from a /rustc/<40-hex>/ path in read-only data. It does not by itself prove which compiler produced the binary.\"],\"unknowns\":[\"Embedded dependency records do not authenticate build provenance or establish complete runtime dependencies or target behavior.\",\"No cargo-auditable metadata was observed; missing metadata does not establish an empty dependency set.\"],\"source_coverage\":{\"auditable_metadata_available\":false,\"embedded_records\":\"unknown\",\"runtime_dependencies\":\"unknown\"},\"summary\":{\"bytes\":68923904,\"format\":\"pe\",\"architecture\":\"amd64\",\"bits\":64,\"byte_order\":\"little\",\"auditable_metadata\":null,\"rustc_commit\":{\"evidence_kind\":\"inferred\",\"hashes_count\":1}}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Embedded dependency metadata is file content. It does not authenticate package names, versions, sources, or the compiler that produced the binary.\",\"No .dep-v0 section was found. Absence of .dep-v0 does not mean the binary has no dependencies.\",\"Only the .dep-v0 dependency section and read-only compiler path strings are inspected. Functions, types, and runtime behavior are not recovered.\",\"Resource guards bound the selected file to 256 MiB, a dependency section to 1 MiB, inflated JSON to the smaller of 8 MiB and 64 times the section size, and the complete report to 8 MiB. Package and dependency counts are admitted against that output budget before schema cloning, graph objects, or reverse-edge allocation.\",\"The rustc commit hash is inferred from a /rustc/<40-hex>/ path in read-only data. It does not by itself prove which compiler produced the binary.\"],\"relationship_coverage\":null,\"locations\":[{\"kind\":\"artifact-path\",\"path\":\"D:\\\\BridgeVoice\\\\bridgevoice.exe\"}],\"evidence_links\":[\"ev_6da9fd5194f6942e9c64a559bc4dee98c86a38c033e03f14d137adfbe6eac4e4\"]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_57166d2400c5ea7da25a7b0384b669692f1918a58290cdd5ac1845a08cecdb87",
+    "subject": {
+      "name": "bridgevoice.exe",
+      "digest": {
+        "sha256": "52eb5985fd6838f4bcc4e84924544eb84205cef8c031b5e472804bcc8456aa28"
+      },
+      "local_path": "D:\\BridgeVoice\\bridgevoice.exe",
+      "format": "pe",
+      "architecture": "x86_64"
+    },
+    "provider": {
+      "id": "rea-analysis-view",
+      "name": "REA analysis view projection",
+      "version": "1"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis-view",
+    "operation": "inspect_analysis_view",
+    "parameters": {
+      "parent_evidence_id": "ev_6da9fd5194f6942e9c64a559bc4dee98c86a38c033e03f14d137adfbe6eac4e4",
+      "view": {
+        "kind": "summary"
+      }
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "kind": "summary",
+      "view": {
+        "kind": "summary"
+      },
+      "parent_evidence_id": "ev_6da9fd5194f6942e9c64a559bc4dee98c86a38c033e03f14d137adfbe6eac4e4",
+      "parent_operation": "inspect_rust_binary",
+      "parent_digest": "6da9fd5194f6942e9c64a559bc4dee98c86a38c033e03f14d137adfbe6eac4e4",
+      "view_digest": "0350a203d10c51694d6fc7b54f6a1f7e3b930bf3edf2c383ea2c6daeeb0990fc",
+      "artifact": {
+        "path": "D:\\BridgeVoice\\bridgevoice.exe",
+        "sha256": "52eb5985fd6838f4bcc4e84924544eb84205cef8c031b5e472804bcc8456aa28"
+      },
+      "coverage": {
+        "status": "complete-within-view",
+        "examined": 1,
+        "total": 1,
+        "next_offset": null,
+        "exhausted": true
+      },
+      "limitations": [
+        "Embedded dependency metadata is file content. It does not authenticate package names, versions, sources, or the compiler that produced the binary.",
+        "No .dep-v0 section was found. Absence of .dep-v0 does not mean the binary has no dependencies.",
+        "Only the .dep-v0 dependency section and read-only compiler path strings are inspected. Functions, types, and runtime behavior are not recovered.",
+        "Resource guards bound the selected file to 256 MiB, a dependency section to 1 MiB, inflated JSON to the smaller of 8 MiB and 64 times the section size, and the complete report to 8 MiB. Package and dependency counts are admitted against that output budget before schema cloning, graph objects, or reverse-edge allocation.",
+        "The rustc commit hash is inferred from a /rustc/<40-hex>/ path in read-only data. It does not by itself prove which compiler produced the binary."
+      ],
+      "unknowns": [
+        "Embedded dependency records do not authenticate build provenance or establish complete runtime dependencies or target behavior.",
+        "No cargo-auditable metadata was observed; missing metadata does not establish an empty dependency set."
+      ],
+      "source_coverage": {
+        "auditable_metadata_available": false,
+        "embedded_records": "unknown",
+        "runtime_dependencies": "unknown"
+      },
+      "summary": {
+        "bytes": 68923904,
+        "format": "pe",
+        "architecture": "amd64",
+        "bits": 64,
+        "byte_order": "little",
+        "auditable_metadata": null,
+        "rustc_commit": {
+          "evidence_kind": "inferred",
+          "hashes_count": 1
+        }
+      }
+    },
+    "confidence": "derived",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Embedded dependency metadata is file content. It does not authenticate package names, versions, sources, or the compiler that produced the binary.",
+      "No .dep-v0 section was found. Absence of .dep-v0 does not mean the binary has no dependencies.",
+      "Only the .dep-v0 dependency section and read-only compiler path strings are inspected. Functions, types, and runtime behavior are not recovered.",
+      "Resource guards bound the selected file to 256 MiB, a dependency section to 1 MiB, inflated JSON to the smaller of 8 MiB and 64 times the section size, and the complete report to 8 MiB. Package and dependency counts are admitted against that output budget before schema cloning, graph objects, or reverse-edge allocation.",
+      "The rustc commit hash is inferred from a /rustc/<40-hex>/ path in read-only data. It does not by itself prove which compiler produced the binary."
+    ],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "D:\\BridgeVoice\\bridgevoice.exe"
+      }
+    ],
+    "evidence_links": [
+      "ev_6da9fd5194f6942e9c64a559bc4dee98c86a38c033e03f14d137adfbe6eac4e4"
+    ]
+  }
+}

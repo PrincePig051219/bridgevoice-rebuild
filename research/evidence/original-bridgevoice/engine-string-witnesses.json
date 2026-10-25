@@ -1,0 +1,570 @@
+{
+  "source": "D:\\BridgeVoice\\bridgevoice.exe",
+  "sha256": "52eb5985fd6838f4bcc4e84924544eb84205cef8c031b5e472804bcc8456aa28",
+  "method": "read-only engine-name matches and offsets only; no source/UI strings copied; no execution proof",
+  "total_matches": 3027,
+  "rows": [
+    {
+      "offset": 3517152,
+      "length": 10,
+      "engine_terms": [
+        "TAURI"
+      ]
+    },
+    {
+      "offset": 4384525,
+      "length": 9,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 4390299,
+      "length": 9,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 5935083,
+      "length": 10,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 11491982,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11493550,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11495118,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11496686,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11498254,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11499822,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11501390,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11502958,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11504526,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11506174,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11507822,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11509470,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11511118,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11512766,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11514414,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11516062,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11517710,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 11519358,
+      "length": 9,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 22134701,
+      "length": 9,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 22134869,
+      "length": 10,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 22140882,
+      "length": 9,
+      "engine_terms": [
+        "Tauri"
+      ]
+    },
+    {
+      "offset": 22141040,
+      "length": 9,
+      "engine_terms": [
+        "Tauri"
+      ]
+    },
+    {
+      "offset": 22176206,
+      "length": 9,
+      "engine_terms": [
+        "Tauri"
+      ]
+    },
+    {
+      "offset": 48926800,
+      "length": 132,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48926960,
+      "length": 162,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48927224,
+      "length": 152,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48927408,
+      "length": 173,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48927704,
+      "length": 163,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48927896,
+      "length": 154,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48928080,
+      "length": 51,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48928200,
+      "length": 131,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48928408,
+      "length": 113,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48928672,
+      "length": 141,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48928840,
+      "length": 157,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48936040,
+      "length": 19,
+      "engine_terms": [
+        "whisper"
+      ]
+    },
+    {
+      "offset": 48937720,
+      "length": 104,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48937984,
+      "length": 166,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48938176,
+      "length": 105,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48938360,
+      "length": 105,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48938640,
+      "length": 106,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48938936,
+      "length": 107,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48940904,
+      "length": 1076,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48974544,
+      "length": 17,
+      "engine_terms": [
+        "Whisper"
+      ]
+    },
+    {
+      "offset": 48984096,
+      "length": 180,
+      "engine_terms": [
+        "TAURI"
+      ]
+    },
+    {
+      "offset": 48984352,
+      "length": 492,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48984872,
+      "length": 154,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48985027,
+      "length": 43,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48985116,
+      "length": 29,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48985616,
+      "length": 138,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48986672,
+      "length": 101,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48986800,
+      "length": 105,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48996384,
+      "length": 206,
+      "engine_terms": [
+        "push_to_talk"
+      ]
+    },
+    {
+      "offset": 48997160,
+      "length": 119,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 48997304,
+      "length": 127,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 49005264,
+      "length": 8268,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 49015424,
+      "length": 48,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 49016032,
+      "length": 530,
+      "engine_terms": [
+        "push_to_talk"
+      ]
+    },
+    {
+      "offset": 49017056,
+      "length": 36,
+      "engine_terms": [
+        "push_to_talk"
+      ]
+    },
+    {
+      "offset": 49017616,
+      "length": 352,
+      "engine_terms": [
+        "clipboard"
+      ]
+    },
+    {
+      "offset": 49018080,
+      "length": 32,
+      "engine_terms": [
+        "whisper"
+      ]
+    },
+    {
+      "offset": 49020607,
+      "length": 471,
+      "engine_terms": [
+        "push_to_talk"
+      ]
+    },
+    {
+      "offset": 50035526,
+      "length": 1495,
+      "engine_terms": [
+        "clipboard",
+        "push_to_talk",
+        "tauri"
+      ]
+    },
+    {
+      "offset": 50037048,
+      "length": 193,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 50037264,
+      "length": 54,
+      "engine_terms": [
+        "Tauri"
+      ]
+    },
+    {
+      "offset": 50037456,
+      "length": 612,
+      "engine_terms": [
+        "TAURI"
+      ]
+    },
+    {
+      "offset": 50038069,
+      "length": 112,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 50038208,
+      "length": 129,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 50038416,
+      "length": 191,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 50038776,
+      "length": 334,
+      "engine_terms": [
+        "TAURI"
+      ]
+    },
+    {
+      "offset": 50317500,
+      "length": 73040,
+      "engine_terms": [
+        "TAURI"
+      ]
+    },
+    {
+      "offset": 50393784,
+      "length": 111,
+      "engine_terms": [
+        "cpal"
+      ]
+    },
+    {
+      "offset": 50394824,
+      "length": 97,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 50395128,
+      "length": 102,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 50395704,
+      "length": 125,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 50395952,
+      "length": 10,
+      "engine_terms": [
+        "tauri"
+      ]
+    },
+    {
+      "offset": 50396183,
+      "length": 296,
+      "engine_terms": [
+        "tauri"
+      ]
+    }
+  ]
+}

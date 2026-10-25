@@ -1,0 +1,12 @@
+[
+  {
+    "file": "whisper.cpp-LICENSE",
+    "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/LICENSE",
+    "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+  },
+  {
+    "file": "OpenAI-Whisper-LICENSE",
+    "url": "https://raw.githubusercontent.com/openai/whisper/main/LICENSE",
+    "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+  }
+]

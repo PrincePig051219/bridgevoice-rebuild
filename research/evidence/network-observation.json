@@ -1,0 +1,6 @@
+{
+  "scope": "single live sample; does not prove physical network-disconnection behavior",
+  "tcp_connections": [],
+  "at": "2026-10-25T21:26:23.3514238+08:00",
+  "process": 24596
+}

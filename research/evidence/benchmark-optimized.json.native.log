@@ -1,0 +1,648 @@
+2026-10-25T20:50:53.1187198+08:00 Debug Searching for runtime directory Vulkan in E:\codex手搓程序\bridgevoice-rebuild\dist\Suikouda\runtimes\vulkan\win-x64
+2026-10-25T20:50:53.1254380+08:00 Debug Searching for runtime directory Vulkan in E:\codex手搓程序\bridgevoice-rebuild\dist\Suikouda\runtimes\vulkan\win-x64
+2026-10-25T20:50:53.1258511+08:00 Debug Searching for runtime directory Cpu in E:\codex手搓程序\bridgevoice-rebuild\dist\Suikouda\runtimes\win-x64
+2026-10-25T20:50:53.1260170+08:00 Debug Searching for runtime directory Cpu in E:\codex手搓程序\bridgevoice-rebuild\dist\Suikouda\runtimes\win-x64
+2026-10-25T20:50:53.1309405+08:00 Debug Checking if runtime Vulkan is supported on the platform: win
+2026-10-25T20:50:53.1315303+08:00 Debug Loading dependency at E:\codex手搓程序\bridgevoice-rebuild\dist\Suikouda\runtimes\vulkan\win-x64\ggml-base-whisper.dll
+2026-10-25T20:50:53.1353984+08:00 Debug Loading dependency at E:\codex手搓程序\bridgevoice-rebuild\dist\Suikouda\runtimes\vulkan\win-x64\ggml-cpu-whisper.dll
+2026-10-25T20:50:53.1364170+08:00 Debug Loading dependency at E:\codex手搓程序\bridgevoice-rebuild\dist\Suikouda\runtimes\vulkan\win-x64\ggml-vulkan-whisper.dll
+2026-10-25T20:50:53.1429598+08:00 Debug Loading dependency at E:\codex手搓程序\bridgevoice-rebuild\dist\Suikouda\runtimes\vulkan\win-x64\ggml-whisper.dll
+2026-10-25T20:50:53.1440689+08:00 Debug Trying to load whisper library from E:\codex手搓程序\bridgevoice-rebuild\dist\Suikouda\runtimes\vulkan\win-x64\whisper.dll
+2026-10-25T20:50:53.1450871+08:00 Debug Successfully loaded whisper library from E:\codex手搓程序\bridgevoice-rebuild\dist\Suikouda\runtimes\vulkan\win-x64\whisper.dll
+2026-10-25T20:50:53.1454037+08:00 Debug Using NativeLibraryWhisper for whisper library
+2026-10-25T20:50:53.1517073+08:00 Info whisper_init_from_file_with_params_no_state: loading model from 'E:\codex鎵嬫悡绋嬪簭\bridgevoice-rebuild\models\ggml-small.bin'
+
+2026-10-25T20:50:53.1521690+08:00 Info whisper_init_with_params_no_state: use gpu    = 1
+
+2026-10-25T20:50:53.1522861+08:00 Info whisper_init_with_params_no_state: flash attn = 1
+
+2026-10-25T20:50:53.1523800+08:00 Info whisper_init_with_params_no_state: gpu_device = 0
+
+2026-10-25T20:50:53.1524745+08:00 Info whisper_init_with_params_no_state: dtw        = 0
+
+2026-10-25T20:50:53.4299273+08:00 Info ggml_vulkan: Found 2 Vulkan devices:
+
+2026-10-25T20:50:53.4337687+08:00 Info ggml_vulkan: 0 = Intel(R) RaptorLake-S Mobile Graphics Controller (Intel Corporation) | uma: 1 | fp16: 1 | bf16: 0 | warp size: 32 | shared memory: 32768 | int dot: 1 | matrix cores: none
+
+2026-10-25T20:50:53.4367601+08:00 Info ggml_vulkan: 1 = NVIDIA GeForce RTX 4070 Laptop GPU (NVIDIA) | uma: 0 | fp16: 1 | bf16: 0 | warp size: 32 | shared memory: 49152 | int dot: 1 | matrix cores: KHR_coopmat
+
+2026-10-25T20:50:53.4598019+08:00 Info whisper_init_with_params_no_state: devices    = 3
+
+2026-10-25T20:50:53.4601213+08:00 Info whisper_init_with_params_no_state: backends   = 2
+
+2026-10-25T20:50:53.4602257+08:00 Info whisper_model_load: loading model
+
+2026-10-25T20:50:53.4603837+08:00 Info whisper_model_load: n_vocab       = 51865
+
+2026-10-25T20:50:53.4604692+08:00 Info whisper_model_load: n_audio_ctx   = 1500
+
+2026-10-25T20:50:53.4605624+08:00 Info whisper_model_load: n_audio_state = 768
+
+2026-10-25T20:50:53.4606557+08:00 Info whisper_model_load: n_audio_head  = 12
+
+2026-10-25T20:50:53.4607403+08:00 Info whisper_model_load: n_audio_layer = 12
+
+2026-10-25T20:50:53.4608158+08:00 Info whisper_model_load: n_text_ctx    = 448
+
+2026-10-25T20:50:53.4608976+08:00 Info whisper_model_load: n_text_state  = 768
+
+2026-10-25T20:50:53.4609798+08:00 Info whisper_model_load: n_text_head   = 12
+
+2026-10-25T20:50:53.4610617+08:00 Info whisper_model_load: n_text_layer  = 12
+
+2026-10-25T20:50:53.4611782+08:00 Info whisper_model_load: n_mels        = 80
+
+2026-10-25T20:50:53.4612544+08:00 Info whisper_model_load: ftype         = 1
+
+2026-10-25T20:50:53.4613708+08:00 Info whisper_model_load: qntvr         = 0
+
+2026-10-25T20:50:53.4614568+08:00 Info whisper_model_load: type          = 3 (small)
+
+2026-10-25T20:50:53.5146512+08:00 Info whisper_model_load: adding 1608 extra tokens
+
+2026-10-25T20:50:53.5162214+08:00 Info whisper_model_load: n_langs       = 99
+
+2026-10-25T20:50:53.5498582+08:00 Info whisper_model_load:      Vulkan0 total size =   487.01 MB
+
+2026-10-25T20:50:55.2485130+08:00 Info whisper_model_load: model size    =  487.01 MB
+
+2026-10-25T20:50:55.2768270+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:50:55.2771140+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:50:55.2772329+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:50:55.3128861+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:50:55.4042524+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:50:55.4193496+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:50:55.4238599+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:50:55.4549328+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:50:55.5045653+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:50:55.5351910+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:51:03.4539551+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:51:03.4542735+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:51:03.4544242+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:51:03.4598156+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:51:03.4763840+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:51:03.5009568+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:51:03.5054981+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:51:03.5105619+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:51:03.5159591+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:51:03.5227049+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:51:09.5479778+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:51:09.5485482+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:51:09.5487618+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:51:09.5557042+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:51:09.5724588+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:51:09.5963939+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:51:09.6005595+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:51:09.6062482+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:51:09.6104057+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:51:09.6171749+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:51:15.7553327+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:51:15.7559998+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:51:15.7562579+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:51:15.7638568+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:51:15.7811181+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:51:15.7955988+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:51:15.8000434+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:51:15.8048091+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:51:15.8089090+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:51:15.8157165+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:51:21.5660635+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:51:21.5663320+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:51:21.5664585+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:51:21.5719821+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:51:21.5884137+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:51:21.6087279+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:51:21.6124074+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:51:21.6171076+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:51:21.6213761+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:51:21.6279876+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:51:27.7261544+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:51:27.7264198+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:51:27.7266571+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:51:27.7407559+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:51:27.7574003+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:51:27.7829409+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:51:27.7866785+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:51:27.7920787+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:51:27.7962856+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:51:27.8015282+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:51:33.6311325+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:51:33.6317311+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:51:33.6320230+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:51:33.6394425+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:51:33.6562354+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:51:33.6873891+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:51:33.6925936+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:51:33.6995757+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:51:33.7051872+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:51:33.7127054+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:51:40.1378773+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:51:40.1383486+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:51:40.1385246+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:51:40.1460027+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:51:40.1628988+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:51:40.1857658+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:51:40.1911031+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:51:40.1956957+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:51:40.2009856+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:51:40.2071035+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:51:46.5284430+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:51:46.5287286+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:51:46.5288548+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:51:46.5354300+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:51:46.5575859+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:51:46.5884443+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:51:46.5924128+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:51:46.5970498+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:51:46.6013732+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:51:46.6077356+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:51:52.9373685+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:51:52.9376184+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:51:52.9377188+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:51:52.9458833+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:51:52.9680945+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:51:52.9849429+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:51:52.9900776+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:51:52.9992187+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:51:53.0089865+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:51:53.0232153+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:51:59.2967882+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:51:59.2971354+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:51:59.2973549+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:51:59.3055914+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:51:59.3285493+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:51:59.3452280+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:51:59.3514160+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:51:59.3574741+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:51:59.3620384+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:51:59.3708033+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:52:05.8832166+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:52:05.8835818+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:52:05.8837810+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:52:05.8959170+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:52:05.9126214+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:52:05.9249289+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:52:05.9304938+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:52:05.9375988+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:52:05.9429689+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:52:05.9537382+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:52:12.2801131+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:52:12.2806121+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:52:12.2807333+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:52:12.2862543+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:52:12.3078480+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:52:12.3381983+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:52:12.3437342+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:52:12.3504408+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:52:12.3559876+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:52:12.3634619+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:52:18.6530137+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:52:18.6533368+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:52:18.6537713+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:52:18.6599693+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:52:18.6825008+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:52:18.7072342+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:52:18.7111288+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:52:18.7163271+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:52:18.7212781+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:52:18.7276500+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:52:25.0470841+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:52:25.0474561+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:52:25.0476888+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:52:25.0553979+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:52:25.0722182+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:52:25.0968316+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:52:25.1032891+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:52:25.1088861+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:52:25.1148574+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:52:25.1211576+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:52:31.5518279+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:52:31.5520590+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:52:31.5521531+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:52:31.5576049+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:52:31.5789790+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:52:31.6080340+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:52:31.6139671+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:52:31.6210380+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:52:31.6268903+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:52:31.6371963+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:52:38.3405096+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:52:38.3406978+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:52:38.3407814+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:52:38.3471917+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:52:38.3698604+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:52:38.3891627+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:52:38.3932399+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:52:38.3981099+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:52:38.4025097+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:52:38.4085677+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:52:44.6225820+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:52:44.6229797+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:52:44.6231777+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:52:44.6320045+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:52:44.6537329+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:52:44.6734754+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:52:44.6772047+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:52:44.6818994+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:52:44.6858763+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:52:44.6947301+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:52:50.9736877+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:52:50.9740634+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:52:50.9742928+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:52:50.9816188+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:52:51.0025129+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:52:51.0330015+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:52:51.0382694+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:52:51.0430209+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:52:51.0484853+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:52:51.0553598+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:52:57.4178561+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:52:57.4181943+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:52:57.4184158+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:52:57.4243898+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:52:57.4458307+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:52:57.4572841+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:52:57.4610559+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:52:57.4655812+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:52:57.4692977+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:52:57.4760523+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:53:03.4322524+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:53:03.4327079+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:53:03.4332634+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:53:03.4394608+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:53:03.4612133+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:53:03.4809314+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:53:03.4882308+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:53:03.4959429+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:53:03.5090789+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:53:03.5185038+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:53:09.4710940+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:53:09.4713022+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:53:09.4713978+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:53:09.4792762+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:53:09.4963637+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:53:09.5115982+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:53:09.5167422+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:53:09.5233103+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:53:09.5289038+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:53:09.5374650+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:53:15.7458602+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:53:15.7461898+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:53:15.7463925+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:53:15.7521868+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:53:15.7735243+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:53:15.7934618+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:53:15.7986592+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:53:15.8056328+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:53:15.8121584+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:53:15.8300328+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:53:21.8438871+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:53:21.8442909+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:53:21.8446223+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:53:21.8501845+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:53:21.8682463+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:53:22.0127195+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:53:22.0166271+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:53:22.0211525+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:53:22.0247100+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:53:22.0301099+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:53:27.8297169+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:53:27.8301097+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:53:27.8303656+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:53:27.8411119+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:53:27.8637124+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:53:27.8841679+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:53:27.8884096+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:53:27.8932624+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:53:27.8981868+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:53:27.9059246+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:53:33.5530351+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:53:33.5532415+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:53:33.5533304+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:53:33.5629599+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:53:33.5842604+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:53:33.5995413+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:53:33.6064927+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:53:33.6139084+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:53:33.6204416+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:53:33.6262607+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:53:39.5341504+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:53:39.5343786+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:53:39.5345053+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:53:39.5421342+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:53:39.5644036+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:53:39.5844721+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:53:39.5881732+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:53:39.5926781+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:53:39.5965535+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:53:39.6032500+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:53:45.6171322+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:53:45.6174765+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:53:45.6177645+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:53:45.6249187+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:53:45.6468603+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:53:45.6619905+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:53:45.6662104+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:53:45.6717547+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:53:45.6756875+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:53:45.6823577+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+
+2026-10-25T20:53:51.5440471+08:00 Info whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+
+2026-10-25T20:53:51.5445614+08:00 Info whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+
+2026-10-25T20:53:51.5448808+08:00 Info whisper_backend_init_gpu: using Vulkan0 backend
+
+2026-10-25T20:53:51.5554638+08:00 Info whisper_init_state: kv self size  =   18.87 MB
+
+2026-10-25T20:53:51.5778957+08:00 Info whisper_init_state: kv cross size =   56.62 MB
+
+2026-10-25T20:53:51.6028491+08:00 Info whisper_init_state: kv pad  size  =    4.72 MB
+
+2026-10-25T20:53:51.6081897+08:00 Info whisper_init_state: compute buffer (conv)   =   23.38 MB
+
+2026-10-25T20:53:51.6152658+08:00 Info whisper_init_state: compute buffer (encode) =   33.85 MB
+
+2026-10-25T20:53:51.6192087+08:00 Info whisper_init_state: compute buffer (cross)  =   29.24 MB
+
+2026-10-25T20:53:51.6250602+08:00 Info whisper_init_state: compute buffer (decode) =   98.21 MB
+

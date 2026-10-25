@@ -1,0 +1,85 @@
+{
+  "Completed": false,
+  "Target": 135038,
+  "Note": "Preloaded WAV to ASR to actual input; excludes physical microphone/key-release, includes clipboard settle/verification; unverified injection is not success",
+  "Results": [
+    {
+      "Id": "zh01",
+      "Text": "\u4ECA\u5929\u4E0B\u5348\u4E09\u9EDE\u958B\u6703,\u8ACB\u63D0\u524D\u6E96\u5099\u597D\u6750\u6599\u3002",
+      "Milliseconds": 492.1841,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 574.5328,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 1191.5621
+    },
+    {
+      "Id": "zh02",
+      "Text": "\u8ACB\u628A\u9019\u4EFD\u5831\u544A\u4FDD\u5B58\u5728\u684C\u9762\u7684\u5DE5\u4F5C\u6587\u4EF6\u5BB6\u88E1\u3002",
+      "Milliseconds": 423.9111,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 442.8212,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 974.0244
+    },
+    {
+      "Id": "zh03",
+      "Text": "\u660E\u5929\u5317\u4EAC\u53EF\u80FD\u6709\u96E8,\u51FA\u9580\u8A18\u5F97\u5E36\u5098\u3002",
+      "Milliseconds": 538.2668,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 565.2346,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 1200.4052
+    },
+    {
+      "Id": "zh04",
+      "Text": "\u9019\u500B\u9805\u76EE\u9700\u8981\u5148\u5B8C\u6210\u7814\u7A76,\u518D\u958B\u59CB\u958B\u767C\u3002",
+      "Milliseconds": 569.1697,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 502.5747,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 1190.3469
+    },
+    {
+      "Id": "zh05",
+      "Text": "\u6211\u60F3\u8A02\u5169\u5F35\u9031\u4E94\u665A\u4E0A8\u9EDE\u7684\u96FB\u5F71\u7968\u3002",
+      "Milliseconds": 465.7824,
+      "Delivery": {
+        "Status": "confirmed",
+        "Confirmed": true,
+        "Method": "clipboard",
+        "Milliseconds": 434.0208,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 1012.3488
+    },
+    {
+      "Id": "zh06",
+      "Text": "\u4F1A\u8BAE\u7ED3\u675F\u4EE5\u540E,\u6211\u4EEC\u4E00\u8D77\u6838\u5BF9\u6D4B\u8BD5\u7ED3\u679C\u3002",
+      "Milliseconds": 563.7561,
+      "Delivery": {
+        "Status": "not-observed",
+        "Confirmed": false,
+        "Method": "unicode-fallback",
+        "Milliseconds": 1164.2148,
+        "Detail": null
+      },
+      "FileReadyToDeliveryMs": 1844.2815
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+bin/
+obj/
+.vs/
+models/*.bin
+dist/
+data/
+*.user
+.env*
+*.pfx
+*.p12
+*.pem
+*.key
+*.enc
+credentials*
+**/auth_credentials*

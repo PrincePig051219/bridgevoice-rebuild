@@ -1,0 +1,36 @@
+{
+  "zh": {
+    "n": 20,
+    "character_errors": 8,
+    "reference_characters": 294,
+    "CER": 0.027210884353741496,
+    "word_errors": 8,
+    "reference_words": 33,
+    "mean_ASR_ms": 430.541935
+  },
+  "en": {
+    "n": 10,
+    "character_errors": 5,
+    "reference_characters": 387,
+    "CER": 0.012919896640826873,
+    "word_errors": 1,
+    "reference_words": 76,
+    "mean_ASR_ms": 391.10597
+  },
+  "notepad": {
+    "n": 30,
+    "mean_pipeline_ms": 1239.1336066666668,
+    "min_ms": 831.9127,
+    "max_ms": 1962.7631,
+    "under_1000ms": 7,
+    "confirmed_by_external_readback": 30
+  },
+  "word": {
+    "n": 30,
+    "mean_pipeline_ms": 2474.56705,
+    "min_ms": 2075.7281,
+    "max_ms": 3327.7798,
+    "under_1000ms": 0,
+    "confirmed_by_external_readback": 30
+  }
+}

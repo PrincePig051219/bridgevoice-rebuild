@@ -1,0 +1,1 @@
+{"reason":"Native logger proved default GPU 0 is Intel; stopped partial Intel trial to select observed NVIDIA device 1. Not counted as complete 30-sentence run."}

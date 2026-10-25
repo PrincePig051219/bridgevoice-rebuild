@@ -1,0 +1,128 @@
+﻿{
+    "document":  "文档1",
+    "length":  804,
+    "method":  "Read-only Word COM Content.Text for the previously observed empty research document",
+    "matches":  [
+                    {
+                        "id":  "zh01",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh02",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh03",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh04",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh05",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh06",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh07",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh08",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh09",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh10",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh11",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh12",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh13",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh14",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh15",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh16",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh17",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh18",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh19",
+                        "present":  true
+                    },
+                    {
+                        "id":  "zh20",
+                        "present":  true
+                    },
+                    {
+                        "id":  "en01",
+                        "present":  true
+                    },
+                    {
+                        "id":  "en02",
+                        "present":  true
+                    },
+                    {
+                        "id":  "en03",
+                        "present":  true
+                    },
+                    {
+                        "id":  "en04",
+                        "present":  true
+                    },
+                    {
+                        "id":  "en05",
+                        "present":  true
+                    },
+                    {
+                        "id":  "en06",
+                        "present":  true
+                    },
+                    {
+                        "id":  "en07",
+                        "present":  true
+                    },
+                    {
+                        "id":  "en08",
+                        "present":  true
+                    },
+                    {
+                        "id":  "en09",
+                        "present":  true
+                    },
+                    {
+                        "id":  "en10",
+                        "present":  true
+                    }
+                ],
+    "text":  " 今天下午三点开会,请提前准备好材料。请把这份报告保存在桌面的工作文件家里。明天北京可能有雨,出门记得带伞。这个项目需要先完成研究,再开始开发。\n我想订两张周五晚上8点的电影票。会议结束以后,我们一起核对测试结果。把背景颜色改成浅蓝色,文字保持黑色。如果网络断开,程序也应该正常运行。这条记录包含中文、英文和数字。\n请确认文件已经备份,然后再修改设置。这杯咖啡不要加糖,谢谢! 周末我准备去图书馆借几本书。当前窗口没有响应,需要记录真实状态。翿。请不要把推断写成已经验证的事实。按住快捷键说话,松开以后显示文字。我们需要比较准确率,延迟和输入成功率。这段录音前後有一点静音。新的版本修复了文件对话矿的问题。请检查所有证据是否都有摘药。完成以後停止,不要继续增加功能。ౄ。Please save the report in the project folder. The meeting starts at 3 in the afternoon. This application should work without an internet connection. Hold the shortcut key and speak clearly. Check the evidence before writing the conclusion. I would like a cup of coffee without sugar. The new version includes automatic punctuation. Keep a backup before changing the settings. We need to measure accuracy and response time. Stop when all the requested work is complete.\r"
+}

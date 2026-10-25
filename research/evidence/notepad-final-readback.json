@@ -1,0 +1,162 @@
+[
+  {
+    "hwnd": 14619274,
+    "class": "RichEditD2DPT",
+    "length": 974,
+    "own_fixture_marker_present": true,
+    "sha256": "5e09d747e10819f11d6a7f32b9cacf4dafa96080f452ade77459aebf8101988e",
+    "matches": [
+      {
+        "id": "zh01",
+        "present": true,
+        "count": 2
+      },
+      {
+        "id": "zh02",
+        "present": true,
+        "count": 2
+      },
+      {
+        "id": "zh03",
+        "present": true,
+        "count": 2
+      },
+      {
+        "id": "zh04",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh05",
+        "present": true,
+        "count": 2
+      },
+      {
+        "id": "zh06",
+        "present": true,
+        "count": 2
+      },
+      {
+        "id": "zh07",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh08",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh09",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh10",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh11",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh12",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh13",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh14",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh15",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh16",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh17",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh18",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh19",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "zh20",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "en01",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "en02",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "en03",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "en04",
+        "present": false,
+        "count": 0
+      },
+      {
+        "id": "en05",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "en06",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "en07",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "en08",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "en09",
+        "present": true,
+        "count": 1
+      },
+      {
+        "id": "en10",
+        "present": true,
+        "count": 1
+      }
+    ],
+    "text": "随口打输入验证 SKD-20261025今天下午三點開會,請提前準備好材料。\r\n請把這份報告保存在桌面的工作文件家裡。\r\n明天北京可能有雨,出門記得帶傘。\r\n這個項目需要先完成研究,再開始開發。\r\n我想訂兩張週五晚上8點的電影票。\r\n会议结束以后,我们一起核对测试结果。\r\n今天下午三點開會,請提前準備好材料。\r\n請把這份報告保存在桌面的工作文件家裡。\r\n明天北京可能有雨,出門記得帶傘。\r\n這個項目需要先完成研究,。。。。。。\r\n我想訂兩張週五晚上8點的電影票。\r\n会议结束以后,我们一起核对测试结果。\r\n把背景颜色改成浅蓝色,文字保持黑色。\r\n如果網絡斷開,程序也應該正常運行。\r\n這條記錄包含中文、英文和數字。\r\n请确认文件已经备份,然后再修改设置。\r\n這杯咖啡不要加糖,謝謝!\r\n週末我準備去圖書館借幾本書。\r\n當前窗口沒有響應,需要記錄真實狀態。\r\n请不要把推断写成已经验证的事实。\r\n按住快捷键说话,松开以后显示文字。\r\n我們需要比較準確率,延遲和輸入成功率。\r\n這段錄音前後有一點靜音。\r\n新的版本修復了文件對話礦的問題。\r\n请检查所有证据是否都有摘药。\r\n完成以後停止,\r\nPlease save the report in the project folder.\r\nThe meeting starts at 3 in the afternoon.\r\nThis application should work without an internet connection.\r\nHold the rrrrrrrrrrrrrrrrrrrrrrrrrrrrly.\r\nCheck the evidence before writing the conclusion.\r\nI would like a cup of coffee without sugar.\r\nThe new version includes automatic punctuation.\r\nKeep a backup before changing the settings.\r\nWe need to measure accuracy and response time.\r\nStop when all the requested work is complete.\r\n"
+  }
+]

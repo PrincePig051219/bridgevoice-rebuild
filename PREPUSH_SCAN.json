@@ -1,0 +1,7 @@
+{
+  "scope": "all git candidate files, tracked and untracked, excluding .git and ignored files",
+  "files_scanned": 116,
+  "images_binary_scanned": 2,
+  "findings": [],
+  "secret_values_logged": false
+}
